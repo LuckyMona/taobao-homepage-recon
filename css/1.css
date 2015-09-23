@@ -302,7 +302,8 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #p-telfee .telfee-price span { color:#b5b5b5; }
 #p-telfee .telfee-price strong { color:#ff6600; font-weight:bold; }
 
-#p-telfee .charge input { width:68px; height:27px; line-height:27px; background:#ff4400; color:#fff5f2; font-size:12px; font-weight:bold; margin-left:15px; border-radius:2px; }
+#p-telfee .charge { width:68px; height:27px; margin-left:15px; }
+#p-telfee .charge input { width:68px; height:27px; line-height:27px; background:#ff4400; color:#fff5f2; font-size:12px; font-weight:bold; border-radius:2px; text-indent:0; }
 
 
 <div class="telfee-dtl-w">
