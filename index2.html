@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>My taobao site</title>
 	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<script type="text/javascript" src='js/jquery-1.11.3.js'></script>
+	<script type="text/javascript" src='js/homepage.js'></script>
 </head>
 <body>
 
@@ -85,12 +88,12 @@
 					</form>
 					<div class='clew-tb-wrap' class='clear'>
 						<ul class="clew-tb active">
-							<li><a href="">运动鞋女</a></li>
+							<li class='active'><a href="">运动鞋女</a></li>
 							<li><a href="">四件套</a></li>
-							<li><a href="">茶盘</a></li>
+							<li class='active'><a href="">茶盘</a></li>
 							<li><a href="">短靴</a></li>
 							<li><a href="">灵芝孢子粉</a></li>
-							<li><a href="">牛仔裤女</a></li>
+							<li class='active'><a href="">牛仔裤女</a></li>
 							<li><a href="">面膜</a></li>
 							<li><a href="">办公椅</a></li>
 							<li><a href="">女童秋装</a></li>
@@ -100,17 +103,17 @@
 							<li><a href="">坚果</a></li>
 						</ul>
 						<ul class="clew-tmall" >
-							<li><a href="">连衣裙</a></li>
+							<li class='active'><a href="">连衣裙</a></li>
 							<li><a href="">运动鞋</a></li>
-							<li><a href="">iPhone6s</a></li>
+							<li class='active'><a href="">iPhone6s</a></li>
 							<li><a href="">智能手机</a></li>
 							<li><a href="">bb霜</a></li>
 							<li><a href="">笔记本电脑</a></li>
 							<li><a href="">沙发</a></li>
-							<li><a href="">铁皮枫斗</a></li>
+							<li class='active'><a href="">铁皮枫斗</a></li>
 							<li><a href="">女包</a></li>
 							<li><a href="">男士手表</a></li>
-							<li><a href="">文具</a></li>
+							<li class='active'><a href="">文具</a></li>
 							<li><a href="">婚庆床品</a></li>
 							<li><a href="">冰箱</a></li>
 							<li><a href="">奶粉</a></li>
@@ -124,7 +127,7 @@
 			</div>
 		</div>
 		<div class="qrcode">
-			<span class="qr-close"></span>
+			<span class="qr-close"><a href=""></a></span>
 			<a href="" target='_self'>
 				<span class='h'>手机逛淘宝</span>
 				<img src="img/qr-code.png" alt='qr-code picture'>
@@ -185,37 +188,37 @@
 				<dl class='t-menu-special'>
 					<dt>特色购物</dt>
 					<dd>
-						<a href="">淘宝女人</a>
+						<a class='first-col' href="">淘宝女人</a>
 						<a href="">淘宝男人</a>
-						<a href="">中老年</a>
-						<a href="">闲鱼</a>
+						<a class='last-col' href="">中老年</a>
+						<a class='first-col' href="">闲鱼</a>
 						<a href="">拍卖会</a>
-						<a href="">全球购</a>
-						<a href="">批发量贩<span class='menu-hot-ico'></span></a>
+						<a class='last-col' href="">全球购</a>
+						<a class='first-col' href="">批发量贩<span class='menu-hot-ico'></span></a>
 						<a href="">淘宝众筹</a>
-						<a href="">爱逛街</a>
-						<a href="">中国质造</a>
+						<a class='last-col' href="">爱逛街</a>
+						<a class='first-col' href="">中国质造</a>
 						<a href="">淘女郎</a>
-						<a href="">企业购</a>
+						<a class='last-col' href="">企业购</a>
 					</dd>
 				</dl>
 				<dl class='t-menu-sale'>
 					<dt>优惠促销</dt>
 					<dd class='m-sale-d1'>
-						<a href="">天天特价</a>
-						<a href="">试用</a>
-						<a href="">清仓</a>
-						<a href="">全民抢拍</a>
-						<a href="">淘金币</a>
-						<a href="">抢新</a>
-						<a href="">淘特莱斯</a>
-						<a href="">本地团</a>
-						<a href="">挑食</a>
+						<a class='first' href="">天天特价</a>
+						<a class='second' href="">试用</a>
+						<a class='third' href="">清仓</a>
+						<a class='first' href="">全民抢拍</a>
+						<a class='second' href="">淘金币</a>
+						<a class='third' href="">抢新</a>
+						<a class='first' href="">淘特莱斯</a>
+						<a class='second' href="">本地团</a>
+						<a class='third' href="">挑食</a>
 					</dd>
 					<dd class='m-sale-d2'>
-						<a href="">阿里旺旺</a>
-						<a href="">支付宝</a>
-						<a href="">来往</a>
+						<a class='first' href="">阿里旺旺</a>
+						<a class='second' href="">支付宝</a>
+						<a class='third' href="">来往</a>
 					</dd>
 				</dl>
 			</div>	
@@ -227,7 +230,7 @@
 						<li><a href="">天猫</a></li>
 						<li><a href="">聚划算</a></li>
 						<li><a href="">超市</a></li>
-						<li><a href="">头条</a></li>
+						<li class='last' ><a href="">头条</a></li>
 					</ul>
 					<ul class="nav-list2">
 						<li><a href="">阿里旅行</a></li>
