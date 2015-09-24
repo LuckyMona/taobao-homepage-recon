@@ -122,12 +122,12 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #top-menu .t-menu-theme dd { width:181px; height:158px; padding-bottom:8px; padding-top:7px; }
 #top-menu .t-menu-theme dd div { margin-bottom:-2px; margin-right:-2px; border:2px solid transparent; float:left; padding-left:13px; width:174px; height:23px; z-index:10; }
 #top-menu .t-menu-theme dd div:hover {  border:2px solid red; background:#fff; border-right-color:#fff; }
-#top-menu .t-menu-theme dd a { float:left; width:37px; height:23px; line-height:23px; -border:1px solid red; }	
+#top-menu .t-menu-theme dd a { float:left; width:37px; height:23px; line-height:23px; -border:1px solid red; }
 
 #top-menu .t-menu-special { overflow:hidden; width:188px; height:137px; }
 #top-menu .t-menu-special dt { height:17px; background-position:0 -18px; line-height:17px; margin-left:9px; margin-top:10px; padding-left:24px; }
 #top-menu .t-menu-special dd { width:160px; height:102px; border-bottom:1px solid #e6e7eb; padding:0px 5px; margin-top:7px; margin-left:9px; }
-#top-menu .t-menu-special a { display:inline-block; position:relative; margin-left:-4px; -border:1px solid red; width:62px; height:24px; line-height:24px; }
+#top-menu .t-menu-special a { display:inline-block; *zoom:1; *display:inline; position:relative; margin-left:-4px; -border:1px solid red; width:62px; height:24px; line-height:24px; }
 #top-menu .t-menu-special dd .first-col { margin-left:0; }
 #top-menu .t-menu-special dd .last-col { width:36px;  }
 #top-menu .t-menu-special dd .menu-hot-ico 	{ width:9px; height:14px; background:url(../img/index-hot.gif) no-repeat; margin-top:-1px; position:absolute; top:0; right:5px;  }
@@ -160,9 +160,9 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #t-nav-w .nav-list2 {  padding-left:12px; font-size:14px;  }
 #t-nav-w .nav-list2 a { color:#666666; margin-right:12px; } 
 
-#banner-wrap { float:left; width:693px; height:483px; margin-top:7px; -border:1px solid red;}
+#banner-wrap { overflow:hidden; float:left; width:693px; height:483px; margin-top:7px; -border:1px solid red;}
 #banner-up-w { width:693px; height:280px; -border:1px solid green; overflow:hidden; }
-#banner-up-w .banner-big { display:inline-block; position:relative; width:520px; height:280px; margin-right:3px; overflow:hidden; }
+#banner-up-w .banner-big { display:inline-block; *zoom:1; *display:inline; position:relative; width:520px; height:280px; margin-right:3px; overflow:hidden; }
 #banner-up-w .banner-big .slide-big { width:2600px; height:280px;  }
 #banner-up-w .slide-big li { float:left;}
 #banner-up-w .slide-big img { width:520px; height:280px; }
@@ -178,11 +178,11 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #banner-up-w .banner-big .btn-next { right:5px; background:#000 url(../img/top-nav.png) no-repeat 14px -63px; }
 
 
-#banner-up-w .banner-side1 { display:inline-block; width:170px; height:280px; margin-left:-4px; }
-#banner-up-w .banner-side1 a { display:inline-block; width:170px; height:280px; }
+#banner-up-w .banner-side1 { display:inline-block; *zoom:1; *display:inline; margin-left:-4px; *margin-left:0; width:170px; height:280px; *position: relative; *top:-6px;  }
+#banner-up-w .banner-side1 a { overflow:hidden; display:inline-block; *zoom:1; *display:inline; width:170px; height:280px; }
 
 #banner-down-w { width:693px; height:200px; -border:1px solid red; margin-top:3px; }
-#banner-down-w .banner-small { position:relative; display:inline-block; width:520px; height:200px; -border:1px solid blue; overflow:hidden; margin-right:3px; }
+#banner-down-w .banner-small { position:relative; display:inline-block; *zoom:1; *display:inline; width:520px; height:200px; -border:1px solid blue; overflow:hidden; margin-right:3px; }
 #b-group-l { width:3120px; height:200px; }
 #b-group-l > li { float:left; }
 #b-group-l ul { float:left; width:520px; height:200px; }
@@ -200,7 +200,7 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #banner-down-w .banner-small>a { width:40px; height:40px; position:absolute; top:80px; opacity:0.4; filter:alpha(opacity=40); }
 #banner-down-w .banner-small .btn-prev { left:5px; background:#000 url(../img/top-nav.png) no-repeat 14px -23px; }
 #banner-down-w .banner-small .btn-next { right:5px; background:#000 url(../img/top-nav.png) no-repeat 14px -63px; }
-#banner-down-w .banner-side2 { display:inline-block; margin-left:-4px; width:170px; height:200px; }
+#banner-down-w .banner-side2 { display:inline-block; *zoom:1; *display:inline; margin-left:-4px; *margin-left:0; width:170px; height:200px; *position: relative; *top:-4px; }
 /* end top > top-nav */
 
 
@@ -258,7 +258,7 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #p-headline div { float:left; width:198px; margin-left:16px; }
 #p-headline ul { width:198px; height:44px; overflow:hidden; }
 #p-headline li { width:198px; }
-#p-headline li span { display:inline-block; height:44px; line-height:44px; color:#3c3c3c;  }
+#p-headline li span { display:inline-block; *zoom:1; *display:inline; height:44px; line-height:44px; color:#3c3c3c;  }
 #p-headline li span.newest { height:44px; line-height:44px; color:#ff4400; }
 #p-headline li span:hover { color:#ff4400; }
 
@@ -284,11 +284,11 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #p-telfee .telfee-dtl { }
 #p-telfee .telfee-dtl ul { width:288px; height:34px; }
 #p-telfee .telfee-dtl li { float:left; height:34px; line-height:34px; margin-left:25px;  }
-#p-telfee .telfee-dtl li a { display:inline-block; color:#666666; }
+#p-telfee .telfee-dtl li a { display:inline-block; *zoom:1; *display:inline; color:#666666; }
 #p-telfee .telfee-dtl li a:hover { color:#ff4300; }
 #p-telfee .telfee-dtl li.active a {  color:#ff4300;  }
 #p-telfee .telfee-dtl .wideband { position: relative; width:99px;  }
-#p-telfee .telfee-dtl .wideband .new-ico { display:inline-block; width:20px; height:15px; background:url(../img/new.gif) no-repeat; position:absolute; right:0; margin-top:6px; }
+#p-telfee .telfee-dtl .wideband .new-ico { display:inline-block; *zoom:1; *display:inline; width:20px; height:15px; background:url(../img/new.gif) no-repeat; position:absolute; right:0; margin-top:6px; }
 
 
 #p-telfee .telfee-dtl .tel-num { position:relative; width:188px; height:24px; border:1px solid #cccccc; margin-left:15px; }
