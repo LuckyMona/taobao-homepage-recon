@@ -92,13 +92,6 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #msg .dtl .msg-set .seller-msg { }
 #msg .dtl .msg-set span { color:#ccc; margin:0 8px; }
 
-
-
-
-
-
-
-
 #msg span { float:left; }
 #msg .msg-ico { background:url(../img/header.png) no-repeat 0 -76px; width:11px; height:8px; margin-top:15px; margin-right:6px; }
 #msg .down-ico { margin-left:3px; }
@@ -106,8 +99,32 @@ body { font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
 #header-nav { float:right; height:35px; }
 #header-nav .down-ico { margin-left:10px; }
 
+
+#mytb .dtl { width:82px; height:148px; padding-top:8px; display:none; }
+#mytb .dtl ul { width:82px; height:148px; }
+#mytb .dtl li { width:78px; height:28px; line-height:28px; padding-left:4px; color:#6c6c6c; }
+#mytb .dtl li:hover { background:#f5f5f5;  }
+#mytb .dtl a {  }
+#mytb .dtl a:hover { color:#6c6c6c; }
+
 #shop-cart .shop-cart-ico { float:left; background:url(../img/header.png) no-repeat 0 -96px; margin-top:12px; margin-right:6px; width:11px; height:11px; }
 #shop-cart strong { color:#F22E00; font-weight:bold; }
+
+
+#shop-cart .dtl { width:296px; padding:8px;  }
+#shop-cart .dtl h2 { font-size:12px; margin:13px 0; }
+#shop-cart .dtl ul { width:296px; border-bottom:1px solid #eeeeee; }
+#shop-cart .dtl li { width:296px; height:40px; margin-bottom:10px; float:none; }
+#shop-cart .dtl li>a { float:left; margin-right:10px; }
+#shop-cart .dtl .item-title-w a { width:156px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+#shop-cart .dtl .item-title-w p { float:right; }
+#shop-cart .dtl .item-title-w span { margin-right:5px; color:#717171; }
+#shop-cart .dtl .item-title-w strong { color:#f22e00; }
+#shop-cart .dtl .color-categ-w span { color:#9c9c9c; }
+#shop-cart .dtl .color-categ-w em { font-style:normal; }
+#shop-cart .dtl .color-categ-w a { float:right; }
+
+#shop-cart .dtl .see-mycart { float:right; width:104px; height:25px; color:#fff; border-radius:2px; background:#ff4400; line-height:25px; text-align:center; margin-top:10px; }
 
 #favorite .fav-ico { float:left; background:url(../img/header.png) no-repeat 0 -116px; width:11px; height:11px; margin-right:6px; margin-top:11px; }
 #category { margin-right:5px; }
